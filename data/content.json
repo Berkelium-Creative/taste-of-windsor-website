@@ -1,47 +1,134 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "Taste of Windsor",
+  "tagline": "Asian comfort kitchen on West Windsor Road, Glendale.",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "eyebrow": "GLENDALE · W WINDSOR ROAD · MON–FRI 11–9:30",
+    "heading": "Family kitchen on Windsor.",
+    "subheading": "An Asian comfort kitchen on West Windsor Road, open weekdays for lunch and dinner. Hand-cooked plates, family recipes, ten-and-a-half hours of service from eleven in the morning until nine-thirty at night.",
+    "ctaText": "Call ahead",
+    "ctaLink": "tel:8182422789",
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1800&q=80&auto=format&fit=crop"
   },
   "about": {
-    "heading": "About Us",
+    "label": "The kitchen",
+    "heading": "Mom's recipes. Two cooks. Lunch and dinner.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "Taste of Windsor has been on West Windsor Road since 2018. Two cooks in the kitchen, family recipes on the menu, and a service that runs straight through from eleven in the morning to nine-thirty at night.",
+      "We do made-to-order plates — no microwaves, no shortcuts. Lunch combos, family-style dinner plates, and the kind of comfort food that brings the regulars back twice a week.",
+      "Closed Saturday and Sunday — those are the days we cook for our own families. Open Monday through Friday, lunch straight through dinner."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Lunch Combo",
+      "description": "Choice of protein, jasmine rice, side, and soup. The full lunch in twelve minutes. Available 11–3.",
+      "price": "$13"
+    },
+    {
+      "title": "Family Plate",
+      "description": "Family-size protein dish over rice, plus two sides. Enough for two, or one with leftovers tomorrow.",
+      "price": "$22"
+    },
+    {
+      "title": "Noodle Bowl",
+      "description": "Hand-pulled noodles, scratch-made broth, your choice of protein. Comfort in a bowl.",
+      "price": "$16"
+    },
+    {
+      "title": "Rice Plate",
+      "description": "Wok-tossed protein over steamed jasmine rice with sautéed greens. The everyday plate.",
+      "price": "$15"
+    },
+    {
+      "title": "Veggie Plate",
+      "description": "Wok-fried seasonal vegetables, tofu, jasmine rice, house garlic-soy. Vegan-friendly.",
+      "price": "$14"
+    },
+    {
+      "title": "House Soup",
+      "description": "The day's stock-pot soup. Sometimes chicken, sometimes pork, always made that morning.",
+      "price": "$8"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Cheryl K.",
+      "rating": 5,
+      "context": "Weekly lunch regular",
+      "text": "Taste of Windsor is the lunch spot in Glendale. Three years going twice a week and the lunch combo has never disappointed. Made-to-order, twelve minutes flat, fifteen dollars even."
+    },
+    {
+      "name": "Dan P.",
+      "rating": 4,
+      "context": "Family dinner",
+      "text": "Brought my whole family for a weeknight dinner and we ordered four family plates. Three generations, four plates, eighty dollars, and the leftovers fed everyone again the next day."
+    },
+    {
+      "name": "Lily M.",
+      "rating": 4,
+      "context": "First-time customer",
+      "text": "Walked in for a Tuesday lunch and was eating the best garlic-soy chicken of my month by 12:18. The owner came out and asked how I'd heard about them. Family shop."
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(818) 242-2789",
+    "email": "hello@tasteofwindsor.com",
+    "address": "123 W Windsor Rd, Glendale, CA 91204",
+    "mapEmbedQuery": "Taste of Windsor, 123 W Windsor Rd, Glendale, CA 91204",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
+      "Monday": "11:00 AM – 9:30 PM",
+      "Tuesday": "11:00 AM – 9:30 PM",
+      "Wednesday": "11:00 AM – 9:30 PM",
+      "Thursday": "11:00 AM – 9:30 PM",
+      "Friday": "11:00 AM – 9:30 PM",
+      "Saturday": "Closed",
       "Sunday": "Closed"
-    },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+    }
   },
+  "social": {},
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "Taste of Windsor — Asian comfort kitchen in Glendale",
+    "description": "Family-run Asian comfort kitchen on West Windsor Road, Glendale. Lunch combos, family plates, noodle bowls. Open weekdays 11 to 9:30.",
+    "keywords": [
+      "Glendale Asian food",
+      "W Windsor Rd restaurant",
+      "lunch combo Glendale",
+      "family kitchen 91204"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
+    "primaryColor": "#6D28D9",
+    "accentColor": "#FBBF24",
+    "fontFamily": "bowlbyonesc-dmsans-cutivemono"
+  },
+  "designSystem": {
+    "searchQuery": "asian american comfort kitchen ube purple mango bamboo green chunky blob playful",
+    "styleName": "Chunky Modernist Asian (ube + mango + bamboo)",
+    "pattern": "Hero + Cards + CTA · blob playful",
+    "palette": {
+      "primary": "#6D28D9",
+      "secondary": "#3B0764",
+      "cta": "#6D28D9",
+      "accent": "#FBBF24",
+      "background": "#FFFBEB",
+      "text": "#1C1917",
+      "muted": "#78716C",
+      "border": "#1C1917",
+      "surface": "#65A30D"
+    },
+    "typography": {
+      "heading": "Bowlby One SC",
+      "body": "DM Sans",
+      "label": "Cutive Mono",
+      "mood": "Chunky modernist Asian comfort, ube purple + mango + bamboo, playful blob shapes, family kitchen"
+    },
+    "moves": [
+      "Bowlby One SC chunky small-caps display — first Bowlby SC in the build",
+      "Ube purple + mango yellow + bamboo green tricolor — first ube-primary in the build",
+      "Organic blob borders on photos — first blob-radius in the build",
+      "Tri-color menu cards (ube/bamboo/mango) — first tri-color rotating menu",
+      "Mango-yellow CTA visit section — second mango-primary visit",
+      "Wiggling 'MADE TO ORDER' blob badge in hero corner"
+    ]
   }
 }
